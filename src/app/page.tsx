@@ -16,7 +16,6 @@ export default function Home() {
 
   const chatboxRef = useRef<HTMLDivElement>(null);
 
-  // Scroll ke bawah tiap chatLog berubah
   useEffect(() => {
     if (chatboxRef.current) {
       chatboxRef.current.scrollTop = chatboxRef.current.scrollHeight;
@@ -31,7 +30,6 @@ export default function Home() {
 
     const userMessage = input.trim();
 
-    // Update chat dengan pesan user
     setChatLog((prev) => [...prev, { sender: "user", text: userMessage }]);
     setInput("");
 

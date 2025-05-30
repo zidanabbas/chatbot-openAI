@@ -35,7 +35,6 @@ export async function POST(req) {
 
     const data = await response.json();
 
-    // Pastikan data.choices ada dan valid
     if (!data.choices || !data.choices[0]?.message?.content) {
       return new Response(
         JSON.stringify({ error: "Invalid response format from OpenAI" }),
