@@ -6,7 +6,7 @@ Chatbot sederhana berbasis AI menggunakan **Next.js 15 App Router**, **TypeScrip
 
 ## 🚀 Demo
 
-🌐 [Lihat Live Demo](https://chatbot-openai-zidanabbas.vercel.app)
+🌐 [Lihat Live Demo](https://chatbot-open-ai-one.vercel.app/)
 
 ---
 
